@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11
+FROM openjdk:17-jdk-slim
 
 ADD kafdrop.sh /
 ADD kafdrop*tar.gz /
